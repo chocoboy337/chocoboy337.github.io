@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f0f0; /* вибраний колір */
+    color: #333333; /* контрастний колір тексту */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+nav ul {
+    list-style-type: none; /* зняти маркери */
+    padding: 0;
+    display: flex; /* зробити горизонтальним */
+}
+
+nav ul li {
+    margin-right: 20px; /* відступ між пунктами */
+}
+header {
+    background-color: #003366; /* обраний колір */
+    color: #ffffff; /* контрастний колір тексту */
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #004080; /* обраний колір */
+    color: #ffffff; /* контрастний колір тексту */
+    padding: 10px;
+}
+p {
+    margin: 20px 0; /* відступи */
+    color: #444444; /* контрастний колір тексту */
+}
+footer {
+    background-color: #002244; /* обраний колір */
+    color: #ffffff; /* контрастний колір тексту */
+    text-align: center;
+    padding: 20px;
+}
