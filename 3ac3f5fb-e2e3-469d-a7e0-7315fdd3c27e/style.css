@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Темно-синій фон */
+    color: #fff; /* Білий текст */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Щоб футер завжди був внизу */
+}
+header {
+    background: #001f3f; /* Темно-синій фон */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background: #003366; /* Темніший синій */
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+div {
+    flex: 1; /* Займає всю доступну висоту */
+    padding: 20px;
+    background-color: #004080; /* Трохи світліший синій */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #001f3f; /* Темно-синій фон */
+    color: #fff;
+}
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Вирівнюємо елементи вертикально */
+        margin: 10px 0;
+    }
+    nav ul {
+        text-align: center; /* Центруємо навігаційне меню */
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em; /* Зменшуємо заголовок на мобільних */
+    }
+    header h2 {
+        font-size: 1.2em; /* Зменшуємо підзаголовок на мобільних */
+    }
+}
