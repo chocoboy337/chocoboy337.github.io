@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блокова модель CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #5c30d4;
+        }
+
+        .container {
+            max-width: 910px;
+            margin: auto;
+            background: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main {
+            width: 90%;
+            background-color: #e7f3fe;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .inner {
+            width: 90%;
+            background-color: #f9e4b7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .additional {
+            width: 90%;
+            background-color: #d1e7dd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #d30000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Блокова модель CSS</h1>
+
+        <div class="main">
+            <p>Додайте згенерований рядок "текст для генерації".</p>
+        </div>
+
+        <div class="inner">
+            <p>Цей абзац знаходиться всередині класу <strong>inner</strong>.</p>
+        </div>
+
+        <div class="additional">
+            <p>Цей абзац знаходиться всередині класу <strong>container</strong>.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 Всі права захищені.
+    </div>
+</body>
+</html>
